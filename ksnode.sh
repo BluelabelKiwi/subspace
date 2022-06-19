@@ -17,8 +17,12 @@ echo -e "\e[0m"
 sleep 2
 
 echo -e "\e[1m\e[32m1. Sistem Guncelleniyor... \e[0m" && sleep 1
-sudo apt update && sudo apt upgrade --yes
-sudo apt-get install libgomp1
+sudo apt update && sudo apt upgrade --yes && sleep 1
+sudo apt-get install libgomp1 && sleep 1
+sudo apt install ocl-icd-opencl-dev && sleep 1
+sudo apt install libopencl-clang-dev && sleep 1
+sudo apt --fix-broken install && sleep 1
+sudo apt-get autoremove
 
 echo "=================================================="
 
