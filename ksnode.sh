@@ -18,6 +18,7 @@ sleep 2
 
 echo -e "\e[1m\e[32m1. Sistem Guncelleniyor... \e[0m" && sleep 1
 sudo apt update && sudo apt upgrade --yes
+sudo apt-get install libgomp1
 
 echo "=================================================="
 
