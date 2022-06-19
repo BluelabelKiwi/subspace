@@ -146,7 +146,7 @@ WantedBy=multi-user.target
 
     echo "=================================================="
 	
-    echo -e "\e[1m\e[32m Thanks ZValio for Script zvalid.com \e[0m"  	
+    echo -e "\e[1m\e[32m Thanks ZValid for Script zvalid.com \e[0m"  	
 
     echo -e "\e[1m\e[32m Node Loglari icin: \e[0m" 
     echo -e "\e[1m\e[39m    journalctl -u subspace-node.service -f \n \e[0m" 
